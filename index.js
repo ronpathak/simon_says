@@ -99,7 +99,7 @@ function endGame(){
   $("#level-title").html("Game over!");
   setTimeout(function() {
     location.reload(true);
-  }, 20000);
+  }, 10000);
 }
 
 // play the selected note for the button being pressed
